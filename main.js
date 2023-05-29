@@ -126,7 +126,7 @@ btn29Off.addEventListener("click", function() {
 
 function getState(gpio) {
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "http://192.168.18.87/" + gpio + "/state", true);
+  xhr.open("GET", "https://192.168.18.87/" + gpio + "/state", true);
   xhr.onload = function() {
     if (xhr.status === 200) {
       var response = JSON.parse(xhr.responseText);
@@ -138,7 +138,7 @@ function getState(gpio) {
 
 function setState(gpio, state) {
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "http://192.168.18.87/" + gpio + "/" + state, true);
+  xhr.open("GET", "https://192.168.18.87/" + gpio + "/" + state, true);
   xhr.onload = function() {
     if (xhr.status === 200) {
       updateState(gpio, state);
