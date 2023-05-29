@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ESP32 Web Control</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Casa Domotica 4.0</h1>
+  <h2 class="categoryzone">Control de Luces</h2>
+  <div class="lucesdev">
+    <div id="estanciaPrincipal">
+      <h2>Estancia Principal <span id="state2"></span></h2>
+      <button id="btn2On" class="button">Turn On</button>
+      <button id="btn2Off" class="button button2">Turn Off</button>
+    </div>
+    <div id="bano">
+      <h2>Baño <span id="state8"></span></h2>
+      <button id="btn8On" class="button">Turn On</button>
+      <button id="btn8Off" class="button button2">Turn Off</button>
+    </div>
+    <div id="cuartoPrincipal">
+      <h2>Cuarto Principal <span id="state9"></span></h2>
+      <button id="btn9On" class="button">Turn On</button>
+      <button id="btn9Off" class="button button2">Turn Off</button>
+    </div>
+    <div id="terraza">
+      <h2>Terraza <span id="state22"></span></h2>
+      <button id="btn22On" class="button">Turn On</button>
+      <button id="btn22Off" class="button button2">Turn Off</button>
+    </div>
+    <div id="parqueadero">
+      <h2>Parqueadero <span id="state23"></span></h2>
+      <button id="btn23On" class="button">Turn On</button>
+      <button id="btn23Off" class="button button2">Turn Off</button>
+    </div>
+    <div id="lavanderia">
+      <h2>Lavandería <span id="state24"></span></h2>
+      <button id="btn24On" class="button">Turn On</button>
+      <button id="btn24Off" class="button button2">Turn Off</button>
+    </div>
+  </div>
+
+  <h2 class="categoryzone">Puertas y Ventanas</h2>
+  <div class="lucesdev">
+    <div id="puertaparqueadero">
+      <h2>Puerta Parqueadero <span id="state25"></span></h2>
+      <button id="btn25On" class="button">Turn On</button>
+      <button id="btn25Off" class="button button2">Turn Off</button>
+    </div>
+    <div id="puertaprincipal">
+      <h2>Puerta Principal <span id="state26"></span></h2>
+      <button id="btn26On" class="button">Turn On</button>
+      <button id="btn26Off" class="button button2">Turn Off</button>
+    </div>
+    <div id="ventanaprincipal">
+      <h2>Ventana Principal <span id="state28"></span></h2>
+      <button id="btn28On" class="button">Turn On</button>
+      <button id="btn28Off" class="button button2">Turn Off</button>
+    </div>
+  </div>
+
+  <h2 class="categoryzone">Ventilación</h2>
+  <div class="lucesdev">
+    <div id="ventilacion">
+      <h2>Ventilación <span id="state29"></span></h2>
+      <button id="btn29On" class="button">Turn On</button>
+      <button id="btn29Off" class="button button2">Turn Off</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script src="animationsfoud.js"></script>
+</body>
+</html>
